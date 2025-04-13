@@ -4,12 +4,13 @@ int main()
     int n;
     printf("Enter the number of terms :");
     scanf("%d",&n);
+    int a=4;
 
-    for (int i = 4; i <= 4+((n-1)*3); i=i+3)
+    for (int i = 1; i <= n; i++)
     {
         
-            printf("%d\n", i);
-        
+            printf("%d\n", a);
+        a=a+3;
     }
     return 0;
 }
